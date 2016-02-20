@@ -5,7 +5,7 @@ import java.util.Scanner;
  */
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { //Main process
 
 		calculateInterest();
 		determineValues();
@@ -15,7 +15,7 @@ public class Main {
 		// do stuffs
 	}
 	
-	private static void determineValues(){
+	private static void determineValues(){ //Used to get all needed input values
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a number");
 		int a = input.nextInt();
