@@ -9,6 +9,6 @@ public class Main {
 	}
 
 	private static void calculateInterest() {
-		// do stuff
+		// do stuffs
 	}
 }
