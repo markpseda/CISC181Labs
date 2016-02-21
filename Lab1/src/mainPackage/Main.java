@@ -6,7 +6,8 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) { //Main process
-
+		
+		determineValues();
 		calculateInterest();
 		determineValues();
 	}
@@ -17,10 +18,25 @@ public class Main {
 	
 	private static void determineValues(){ //Used to get all needed input values
 		Scanner input = new Scanner(System.in);
-		System.out.println("Enter a number");
-		int a = input.nextInt();
-		System.out.println(a);
-		input.close();
 		
+		System.out.println("Enter the number of years you plan to work.");
+		int numYearsWork = input.nextInt();
+		
+		System.out.println("Enter annual return for your working years.");
+		int workingReturn = input.nextInt();
+		
+		System.out.println("Enter the number of years you plan to retire.");
+		int numYearsRetire = input.nextInt();
+		
+		System.out.println("Enter annual return for your retired years.");
+		int retiredReturn = input.nextInt();
+		
+		System.out.println("Enter amount needed per year during retirement.");
+		int amountNeeded = input.nextInt();
+		
+		System.out.println("Enter expected Social Security income.");
+		int SSI = input.nextInt();
+		
+		input.close();	
 	}
 }
