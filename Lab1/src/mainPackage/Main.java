@@ -4,6 +4,8 @@ import java.util.Scanner;
  * save per month in order to retire comfortably using the amount 
  * needed per year, social security income, the annual return for 
  * years during retirement, and the number of years retired.
+ * 
+ * Team: Colby Banbury, Keggan Ahlers, Mark Seda, RJ Bowen
  */
 public class Main {
 
