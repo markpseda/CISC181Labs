@@ -5,7 +5,7 @@ import java.util.Scanner;
  * needed per year, social security income, the annual return for 
  * years during retirement, and the number of years retired.
  * 
- * Team: Colby Banbury, Keggan Ahlers, Mark Seda, RJ Bowen
+ * Team: Colby Banbury, Keggan Ahlers, Mark Seda, RJ Bowen, Paul DiBendetto
  */
 public class Main {
 
