@@ -9,13 +9,8 @@ public class Main {
 
 	public static void main(String[] args) { //Main process
 		
-		determineValues();
-
-	}
-
-	private static void determineValues(){ //Used to get all needed input values
-		Scanner input = new Scanner(System.in);
-		
+		Scanner input = new Scanner(System.in); 
+		//The code below gets all user input values
 		System.out.println("Enter the number of years you plan to work.");
 		int numYearsWork = input.nextInt();
 		
@@ -40,7 +35,6 @@ public class Main {
 		//^^Calls the "calculateOutput" method. This passes parameters who have had their values specified by the user. The method then calculates
 		// the total amount needed to be saved and and how much money must be saved per month to attain this value
 	}
-	
 	private static void calculateOutput(int numYearsWork, double workingReturn, int numYearsRetire, double retiredReturn, double amountNeeded, double SSI) {
 		
 		double totalSave = (amountNeeded-SSI)*((1-(1/(Math.pow(1+(retiredReturn/100)/12,numYearsRetire*12 )))))/((retiredReturn/100)/12);
